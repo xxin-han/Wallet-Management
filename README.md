@@ -36,6 +36,13 @@ Memindahkan seluruh saldo dari semua wallet farm ke wallet utama yang didefinisi
 
 ---
 
+## Clone Repository
+
+```bash
+git clone https://github.com/xxin-han/Wallet-Management.git
+cd Wallet-Management
+```
+
 ## ⚙️ Konfigurasi `.env`
 
 Buat file `.env` di direktori root dengan format berikut:
@@ -88,7 +95,7 @@ ADDRESS
 ---
 
 
-## 🚀 Aplikasi
+## 🚀 Run Wallet
 
 Install terlebih dahulu:
 
