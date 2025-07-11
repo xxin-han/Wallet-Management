@@ -4,7 +4,7 @@ Sistem manajemen dompet digital berbasis Node.js yang mendukung distribusi massa
 
 ---
 
-## 📁 Struktur Proyek
+## 📁 Struktur Project
 
 ```
 Wallet-Management/
@@ -23,16 +23,16 @@ Wallet-Management/
 
 ---
 
-## 🧩 Modul dalam `lib/`
+## 🧩 Modul `lib/`
 
 ### 1. `balance.js`
 Digunakan untuk membaca saldo ETH atau token dari wallet.
 
 ### 2. `distribute.js`
-Mengelola proses distribusi dana dari wallet hangat ke daftar penerima dalam `recipients.csv`.
+Mengelola proses distribusi dana dari wallet utama ke daftar penerima dalam `recipients.csv`.
 
 ### 3. `sweep.js`
-Memindahkan seluruh saldo dari semua wallet hangat ke wallet utama yang didefinisikan di `.env`.
+Memindahkan seluruh saldo dari semua wallet farm ke wallet utama yang didefinisikan di `.env`.
 
 ---
 
@@ -62,10 +62,11 @@ GAS_PRICE_GWEI=30
 
 ---
 
-## 📂 Format CSV
+## 📂 Format Data
+
+masuk ke directory data lalu lakukan konfigurasi seperti berikut:
 
 ### 🔸 `wallets.csv`
-
 Berisi daftar **private key** dari wallet farm yang digunakan untuk mengirim dana ke wallet utama.
 
 ```csv
@@ -87,7 +88,7 @@ ADDRESS
 ---
 
 
-## 🚀 Menjalankan Aplikasi
+## 🚀 Aplikasi
 
 Install terlebih dahulu:
 
