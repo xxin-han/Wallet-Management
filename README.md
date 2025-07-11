@@ -47,6 +47,10 @@ cd Wallet-Management
 
 Buat file `.env` di direktori root dengan format berikut:
 
+```bash
+nano .env
+```
+
 ```env
 RPC_URL=https://<infura-or-alchemy-url>
 SOURCE_PRIVATE_KEY=<private-key-wallet-utama>
@@ -71,7 +75,7 @@ GAS_PRICE_GWEI=30
 
 ## 📂 Format Data
 
-masuk ke directory data lalu lakukan konfigurasi seperti berikut:
+Masuk ke directory data lalu lakukan konfigurasi seperti berikut:
 
 ### 🔸 `wallets.csv`
 Berisi daftar **private key** dari wallet farm yang digunakan untuk mengirim dana ke wallet utama.
