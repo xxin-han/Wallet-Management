@@ -50,7 +50,7 @@ Buat file `.env` di direktori root dengan format berikut:
 ```bash
 nano .env
 ```
-
+Paste format ini dan ganti dengan konfigurasimu
 ```env
 RPC_URL=https://<infura-or-alchemy-url>
 SOURCE_PRIVATE_KEY=<private-key-wallet-utama>
