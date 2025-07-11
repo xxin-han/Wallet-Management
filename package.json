@@ -1,0 +1,29 @@
+{
+  "name": "wallet-cli-tools",
+  "version": "1.0.0",
+  "description": "CLI untuk distribusi ETH, sweeping wallet, dan cek saldo",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "eth",
+    "wallet",
+    "cli",
+    "ethers",
+    "sweep",
+    "distribute",
+    "terminal-kit"
+  ],
+  "author": "xXin98",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "inquirer": "^9.2.16",
+    "prompt-sync": "^4.2.0",
+    "terminal-kit": "^3.1.2"
+  }
+}
